@@ -9,7 +9,15 @@
         <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
         <script>
             ReactDOM.render(
-                React.DOM.h1({ id: "title" }, 'Hello World!'),
+                React.DOM.h1(
+                    { 
+                        id: "title",
+                        className: 'master-title',
+                        style: {
+                            fontFamily: 'Verdana'
+                        }
+                    }, 
+                    'Hello World!'),
                 document.getElementById('mount')
             );
         </script>
