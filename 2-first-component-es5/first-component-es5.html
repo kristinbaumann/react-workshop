@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>2 - First Component - ES5</title>
+    </head>
+    <body>
+        <div id="mount"></div>
+        <script src="https://unpkg.com/react@15/dist/react.js"></script>
+        <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+        <script>
+            var MyComponent = React.createClass({
+                render: function() {
+                    return React.DOM.h1(null, 'Hello First Component with ES5 & without JSX!');
+                }
+            });
+            ReactDOM.render(
+                React.createElement(MyComponent),
+                document.getElementById('mount')
+            );
+        </script>
+    </body>
+</html>
+

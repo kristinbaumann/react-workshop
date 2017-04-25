@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 class MyComponent extends React.Component {
   render() {
     return (
-      <h1>Hello First Component!</h1>
+      <h1>Hello First Component  with ES6 & JSX!</h1>
     );
   }
 }
