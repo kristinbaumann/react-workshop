@@ -1,5 +1,4 @@
 // Full Reference: http://es6-features.org/#ClassDefinition
-
 // in ES6
 class Shape {
     constructor (id, x, y) {
