@@ -1,9 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// stateless component
 const CounterText = ({ count }) => {
   return (<p>Counter: {count}</p>)
 }
+
+// stateful component
+// class CounterText extends React.Component {
+//   render(){
+//     return (<p>Counter: {this.props.count}</p>);
+//   }
+// }
 
 class Counter extends React.Component {
   constructor(props) {
