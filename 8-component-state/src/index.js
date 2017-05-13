@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+const CounterText = ({ count }) => {
+  return (<p>Counter: {count}</p>)
+}
+
 class Counter extends React.Component {
   constructor(props) {
     super(props);
@@ -16,7 +20,7 @@ class Counter extends React.Component {
   render() {
     return (
       <div>
-        <p>Counter: {this.state.counter}</p>
+        <CounterText count={this.state.counter}/>
         <button onClick={() => this.updateCounter()}>
           Increment Counter
         </button>
