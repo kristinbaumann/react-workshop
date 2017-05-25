@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
 import recipes from './recipes';
+import author from './author';
 
 const reducers = combineReducers({
-  recipes
+  recipes,
+  author
 })
 
 export default reducers;

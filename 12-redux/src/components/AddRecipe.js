@@ -1,6 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 import { addRecipe } from '../actions/recipeActions';
 
 class AddRecipe extends React.Component{
@@ -13,8 +12,7 @@ class AddRecipe extends React.Component{
     this.saveRecipe = this.saveRecipe.bind(this);
   }
   saveRecipe(){
-    const { dispatch } = this.props;
-    dispatch(addRecipe(this.state));
+    this.props.saveRecipeToStore(this.state);
     this.setState({ name: '', time: '' });
   }
   render(){
@@ -35,12 +33,10 @@ class AddRecipe extends React.Component{
   }
 }
 
-function mapDispatchToProps(dispatch) {
+const mapDispatchToProps = (dispatch) => {
   return {
-    actions: bindActionCreators({
-      addRecipe
-    }, dispatch)
-  };
+    saveRecipeToStore: (recipe) => dispatch(addRecipe(recipe))
+  }
 }
 
-export default connect(mapDispatchToProps)(AddRecipe)
+export default connect(null, mapDispatchToProps)(AddRecipe)

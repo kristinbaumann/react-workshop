@@ -11,15 +11,19 @@ class RecipeList extends React.Component{
       );
     });
     return (
-      <ul>{list}</ul>       
+      <div>
+        <p>By { this.props.authorName }</p>
+        <ul>{list}</ul>     
+      </div>  
     );
   }
 }
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    recipeList: state.recipes.list
+    recipeList: state.recipes.list,
+    authorName: state.author.name
   }
 }
 
-export default connect(mapStateToProps)(RecipeList)
+export default connect(mapStateToProps, null)(RecipeList)
