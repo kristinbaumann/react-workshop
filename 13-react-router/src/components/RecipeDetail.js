@@ -5,7 +5,7 @@ const recipeData = {
     '2' : { name: 'Hackbraten', time: '30 Minuten'}
 }
 
-const RecipeDetail = ({ match }) => {
+const RecipeDetail = ({ match, history}) => {
     const id = match.params.id
     const recipe = recipeData[id];
     if(!recipe){
@@ -16,6 +16,7 @@ const RecipeDetail = ({ match }) => {
             <h4>Recipe with ID {id}</h4>
             <p>Name: {recipe.name}</p>
             <p>Time: {recipe.time}</p>
+            <button onClick={() => history.push('/')}>Go back to homepage</button>
         </div>
     )
 }   

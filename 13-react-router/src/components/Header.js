@@ -6,7 +6,7 @@ const Header = () => {
         { text: 'Home', link: '/' },
         { text: 'Recipes', link: '/recipes' },
     ];
-    const tabs = tabData.map((t) => (<li><Link to={t.link}>{t.text}</Link></li>));
+    const tabs = tabData.map((tab, index) => (<li key={index}><Link to={tab.link}>{tab.text}</Link></li>));
     return(<ul>{tabs}</ul>);
 }
 
