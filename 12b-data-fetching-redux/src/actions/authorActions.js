@@ -51,5 +51,6 @@ export const fetchAuthor = () => {
         return fetch(`${config.API_URL}/author`)
             .then(response => response.json())
             .then(json => dispatch(receiveAuthor(json)))
+            .catch((err) => console.error(err))
     }
 }
