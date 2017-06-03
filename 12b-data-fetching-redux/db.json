@@ -1,0 +1,9 @@
+{
+  "recipes": [
+    { "id": 1, "name": "Hackbraten", "time": "1 Stunde" },
+    { "id": 2, "name": "Nudelsalat", "time": "30 Minuten" }
+  ],
+  "author" : {
+      "name": "Kristin"
+  }
+}
