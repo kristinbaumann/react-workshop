@@ -1,3 +1,14 @@
+install npm run -g json-server
+
+npm run api to start mock API on port 3004,
+separate run npm start to start dev server
+
+API based on json-server
+in src/api/db.json
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

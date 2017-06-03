@@ -1,0 +1,17 @@
+{
+  "recipes": {
+    "list": [
+      {
+        "name": "Hack",
+        "time": "1 Stunde"
+      },
+      {
+        "name": "Nudelsalat",
+        "time": "20 Minuten"
+      }
+    ]
+  },
+  "author": {
+    "name": "Kristin"
+  }
+}

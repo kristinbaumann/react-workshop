@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { updateAuthor } from '../actions/authorActions';
+import { saveAuthor } from '../actions/authorActions';
 
 class AddRecipe extends React.Component{
   constructor(props){
@@ -16,7 +16,7 @@ class AddRecipe extends React.Component{
     }
   }
   changeAuthor(){
-    this.props.saveAuthorToStore(this.state.name);
+    this.props.saveAuthor(this.state.name);
     this.setState({ name: '' });
   }
   render(){
@@ -40,7 +40,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    saveAuthorToStore: (recipe) => dispatch(updateAuthor(recipe)),
+    saveAuthor: (data) => dispatch(saveAuthor(data)),
   }
 }
 
