@@ -1,0 +1,25 @@
+.talkItem {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #333;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+.talkItem span{
+    display: block;
+    margin: 10px 0;
+}
+
+.talkItem-location{
+    padding-right: 20px;
+    border-right: 1px solid black;
+}
+
+.talkItem-content{
+    padding-left: 20px;
+}
+
+.talkItem-talk{
+    font-weight: bold;
+}

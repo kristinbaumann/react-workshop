@@ -1,0 +1,8 @@
+.navigationButton {
+    line-height: 18px;
+    padding: 10px 20px;
+    margin-right: 15px;
+    background-color: #999;
+    border: 1px solid #607d8b;
+    cursor: pointer;
+}

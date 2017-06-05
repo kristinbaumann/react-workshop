@@ -1,0 +1,11 @@
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: white;
+  min-height: 100vh;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.app > *{
+  padding: 20px;
+}
