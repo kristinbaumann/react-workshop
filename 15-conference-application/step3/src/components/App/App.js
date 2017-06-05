@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from '../Home/Home';
 import TalkOverview from '../TalkOverview/TalkOverview';
 import Header from '../Header/Header';
+import NotFound from '../NotFound/NotFound';
 import './App.css';
 
 class App extends Component {
@@ -39,15 +40,9 @@ class App extends Component {
       <div className="app">
         <Header />
         <Switch>
-          <Route 
-            exact
-            path='/' 
-            render={(props) => <Home days={days} {...props} />}
-            />
-          <Route 
-            path='/day/:number' 
-            render={(props) => <TalkOverview talks={talks} days={days} {...props} />}
-            />
+          <Route exact path='/' render={(props) => <Home days={days} {...props} />} />
+          <Route path='/day/:number' render={(props) => <TalkOverview talks={talks} days={days} {...props} />} />
+          <Route component={NotFound}/>
         </Switch>
       </div>
     );

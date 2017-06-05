@@ -4,21 +4,24 @@ import './Navigation.css';
 
 class Navigation extends Component {
   render() {
-    const buttonList = this.props.days.map((item, index) => 
+    const { days, dayFromURL } = this.props;
+    const buttonList = days.map((item, index) => 
       <NavigationButton 
         key={index} 
         caption={item.text} 
         link={`/day/${item.day}`}
-        selected={Number(this.props.dayFromURL) === item.day ? true : false }
+        selected={Number(dayFromURL) === item.day}
         />
     );
-
     return (
-      <div className="navigation">
-        { buttonList }
-      </div>
+      <div className="navigation">{ buttonList }</div>
     );
   }
 }
+
+Navigation.defaultProps = {
+  days: [],
+  dayFromURL: -1
+};
 
 export default Navigation;
