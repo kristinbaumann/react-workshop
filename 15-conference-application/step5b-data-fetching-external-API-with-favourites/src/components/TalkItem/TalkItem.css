@@ -1,0 +1,35 @@
+.talkItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #333;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+.talkItem span{
+    display: block;
+    margin: 10px 0;
+}
+
+.talkItem-location{
+    flex-basis: 15%;
+    padding-right: 20px;
+    border-right: 1px solid black;
+}
+
+.talkItem-content{
+    flex-basis: 70%;
+    padding-left: 20px;
+}
+
+.talkItem-talk{
+    font-weight: bold;
+}
+.talkItem-star{
+    flex-basis: 15%;
+    text-align: right;
+}
+.talkItem-starred{
+    background-color: #d8d8d8;
+}

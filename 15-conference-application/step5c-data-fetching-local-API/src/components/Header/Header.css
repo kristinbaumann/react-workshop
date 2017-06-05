@@ -1,0 +1,7 @@
+.header h1{
+    margin: 0;
+}
+.header a{
+    text-decoration: none;
+    color: #333;
+}
