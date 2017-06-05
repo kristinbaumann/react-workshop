@@ -1,11 +1,14 @@
 {
-  "name": "conference-application-step5a-data-fetching-external-API",
+  "name": "conference-application-step6a-redux-external-API",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-router-dom": "^4.1.1"
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"
