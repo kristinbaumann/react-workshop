@@ -1,5 +1,5 @@
 {
-  "name": "conference-application-step3-router",
+  "name": "conference-application-step5-data-fetching",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
