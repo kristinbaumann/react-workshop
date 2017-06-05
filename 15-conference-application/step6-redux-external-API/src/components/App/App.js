@@ -4,8 +4,9 @@ import Home from '../Home/Home';
 import TalkOverview from '../TalkOverview/TalkOverview';
 import Header from '../Header/Header';
 import NotFound from '../NotFound/NotFound';
-import { config } from '../../api/config';
 import './App.css';
+
+const API_URL = 'https://demo2977295.mockable.io';
 
 class App extends Component {
   constructor(props){
@@ -15,19 +16,19 @@ class App extends Component {
       days: null
     };
   }
-
+  
   componentDidMount(){
-    fetch(`${config.API_URL}/days`)
+    fetch(`${API_URL}/days`)
       .then(response => response.json())
-      .then(response => this.setState({ days: response}))
+      .then(response => this.setState({ days: response.days}))
       .catch(err => console.error(err))
 
-    fetch(`${config.API_URL}/talks`)
+    fetch(`${API_URL}/talks`)
       .then(response => response.json())
-      .then(response => this.setState({ talks: response}))
+      .then(response => this.setState({ talks: response.talks}))
       .catch(err => console.error(err))
   }
-  
+
   render() {
     const { talks, days } = this.state;
     return (

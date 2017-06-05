@@ -5,7 +5,7 @@ import './TalkOverview.css';
 
 class TalkOverview extends Component {
   render() {
-    const { match, talks, days } = this.props;
+    const { match, talks, days} = this.props;
     const dayFromURL = match.params.number;
 
     if(!talks){
