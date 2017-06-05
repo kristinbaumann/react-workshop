@@ -17,23 +17,22 @@ class TalkOverview extends Component {
     }
   }
   render() {
-    const { match, talks, talksLoading, favourites} = this.props;
-    const dayFromURL = match.params.number;
+    const { match, talks, talksLoading, favourites, favouritesLoading } = this.props;
 
-    if(talksLoading){
-      return <p>Loading talks..</p>
+    if(talksLoading || favouritesLoading){
+      return <p>Loading talks and favourites..</p>
     }
     if(!talks){
       return <p>No existing talks.</p>;
     }
 
-    const dataByDay = talks.filter((item) => item.day === Number(dayFromURL));
+    const dataByDay = talks.filter((item) => item.day === Number(match.params.number));
     const list = dataByDay.map((item) => 
       <TalkItem key={item.id} showStar={true} isStarred={favourites.indexOf(item.id) !== -1} onStarClickAction={(id) => this.props.addFavourite(id) } {...item}/>
     );
     return (
       <div className="talkOverview">
-        <Navigation dayFromURL={dayFromURL} />
+        <Navigation />
         <div className="talkOverview-list">{list}</div>
       </div>
     );

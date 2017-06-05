@@ -13,7 +13,7 @@ class Navigation extends Component {
     }
   }
   render() {
-    const { days, dayFromURL, daysLoading } = this.props;
+    const { days, match, daysLoading } = this.props;
     if(daysLoading){
       return <p>Loading days...</p>;
     }
@@ -25,7 +25,7 @@ class Navigation extends Component {
         key={index} 
         caption={item.text} 
         link={`/day/${item.day}`}
-        selected={Number(dayFromURL) === item.day}
+        selected={Number(match.params.number) === item.day}
         />
     );
     return (
