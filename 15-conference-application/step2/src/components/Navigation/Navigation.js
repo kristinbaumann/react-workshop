@@ -12,7 +12,6 @@ class Navigation extends Component {
         onClickAction={() => this.props.changeSelectedDay(item.day)}
         />
     );
-
     return (
       <div className="navigation">
         { buttonList }

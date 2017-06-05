@@ -10,7 +10,8 @@ const NavigationButton = ({ caption, selected, onClickAction}) => (
 
 NavigationButton.defaultProps = {
   caption: 'Caption',
-  selected: false
+  selected: false,
+  onClickAction: () => {console.log('Button was clicked.')}
 };
 
 export default NavigationButton;
