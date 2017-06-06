@@ -3,6 +3,7 @@
 - Slides and more information can be found here: [http://reactworkshop.kristin-baumann.com](http://reactworkshop.kristin-baumann.com).
 - Slides in German.
 - Based on React v15, React Router v4, Redux v3
+- Workshop Dates: [enterJS](https://www.enterjs.de/abstracts#einfuhrung-in-react) on 20th June 2017 in Darmstadt (sold out) 
 
 ## Content:
  1. [Hello World in React (ES5)](https://github.com/kristinbaumann/react-workshop/tree/master/01-hello-world)
@@ -20,6 +21,12 @@
  13. [React Router v4](https://github.com/kristinbaumann/react-workshop/tree/master/13-react-router) 
  14. [React Build Process](https://github.com/kristinbaumann/react-workshop/tree/master/14-react-build-process) 
  15. [Practical Example: Conference Application](https://github.com/kristinbaumann/react-workshop/tree/master/15-conference-application) 
+
+## Practical Example: Conference App
+Live Demo: http://conferenenceapp6b.kristin-baumann.com
+
+![alt text](https://github.com/kristinbaumann/react-workshop/raw/master/ConferenceApp_screenshot.png "Practical Application - Conference App")
+
  
 ## Contact
 * Twitter: [@kristin_baumann](https://twitter.com/kristin_baumann)
