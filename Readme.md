@@ -1,6 +1,6 @@
 # React Workshop
 - Code examples for the React Workshop by [Kristin Baumann](www.kristin-baumann.com).
-- Slides and more information can be found here: [https://reactworkshop.kristin-baumann.com](https://reactworkshop.kristin-baumann.com).
+- Slides and more information can be found here: [http://reactworkshop.kristin-baumann.com](http://reactworkshop.kristin-baumann.com).
 - Slides in German.
 - Based on React v15, React Router v4, Redux v3
 
