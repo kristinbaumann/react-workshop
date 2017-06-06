@@ -23,7 +23,7 @@
  15. [Practical Example: Conference Application](https://github.com/kristinbaumann/react-workshop/tree/master/15-conference-application) 
 
 ## Practical Example: Conference App
-Live Demo: http://conferenenceapp6b.kristin-baumann.com
+Live Demo: http://conferenceapp6abkristin-baumann.com/
 
 ![alt text](https://github.com/kristinbaumann/react-workshop/raw/master/ConferenceApp_screenshot.png "Practical Application - Conference App")
 
