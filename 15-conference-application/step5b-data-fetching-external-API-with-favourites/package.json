@@ -1,5 +1,6 @@
 {
   "name": "conference-application-step5b-data-fetching-external-API-with-favourites",
+  "homepage" : "http://conferenceapp5b.kristin-baumann.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

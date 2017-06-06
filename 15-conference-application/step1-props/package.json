@@ -1,5 +1,6 @@
 {
   "name": "conference-application-step1-props",
+  "homepage" : "http://conferenceapp1.kristin-baumann.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

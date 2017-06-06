@@ -1,5 +1,6 @@
 {
   "name": "conference-application-step2-state",
+  "homepage" : "http://conferenceapp2.kristin-baumann.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

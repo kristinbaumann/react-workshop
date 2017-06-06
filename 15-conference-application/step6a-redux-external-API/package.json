@@ -1,5 +1,6 @@
 {
   "name": "conference-application-step6a-redux-external-API",
+  "homepage" : "http://conferenceapp6a.kristin-baumann.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

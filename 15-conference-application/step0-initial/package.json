@@ -1,5 +1,6 @@
 {
   "name": "conference-application-step0-initial",
+  "homepage" : "http://conferenceapp0.kristin-baumann.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
