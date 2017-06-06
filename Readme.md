@@ -22,5 +22,5 @@
  15. [Practical Example: Conference Application](https://github.com/kristinbaumann/react-workshop/tree/master/15-conference-application) 
  
 ## Contact
-Twitter: [@kristin_baumann](https://twitter.com/kristin_baumann)
-Website: [www.kristin-baumann.com](http://www.kristin-baumann.com)
+* Twitter: [@kristin_baumann](https://twitter.com/kristin_baumann)
+* Website: [www.kristin-baumann.com](http://www.kristin-baumann.com)
