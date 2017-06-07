@@ -5,7 +5,7 @@
 - Based on React v15, React Router v4, Redux v3
 - Workshop Dates: [enterJS](https://www.enterjs.de/abstracts#einfuhrung-in-react) on 20th June 2017 in Darmstadt (sold out) 
 
-## Content:
+## Code Examples:
  1. [Hello World in React (ES5)](https://github.com/kristinbaumann/react-workshop/tree/master/01-hello-world)
  2. [First React Component (ES5)](https://github.com/kristinbaumann/react-workshop/tree/master/02-first-component-es5)
  3. [First React Component (ES6 & JSX) (ES5)](https://github.com/kristinbaumann/react-workshop/tree/master/03-first-component-es6-jsx)
