@@ -8,7 +8,7 @@ class RecipeOverview extends Component {
         { id: 2, name: 'Hackbraten', time: '30 Minuten'}
     ];
     const recipes = recipeData.map((recipe, index) => (
-        <li key={index}><Link to={`/recipes/${recipe.id}`}><p>{recipe.name}({recipe.time})</p></Link></li>
+        <li key={index}><Link to={`/recipes/${recipe.id}`}><p>{recipe.name} ({recipe.time})</p></Link></li>
     ));
     return(
         <div>
