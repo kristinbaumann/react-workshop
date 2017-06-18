@@ -40,7 +40,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    saveAuthorToStore: (recipe) => dispatch(updateAuthor(recipe))
+    saveAuthorToStore: (name) => dispatch(updateAuthor(name))
   }
 }
 
